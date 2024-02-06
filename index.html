@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/css/all.min.css"> -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg nav-back">
+        <div class="container d-flex  justify-content-between p-3">
+            <div class=" d-flex nav-items ">
+
+
+                <img src="img/29.svg" class="logo-img" alt="">
+                <div class="d-flex flex-column align-items-center justify-content-center px-2"><a class="navbar-brand "
+                        href="#"> Weather</a>
+                    <span class="text-muted tagline">TagLine goes here</span>
+
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav-items  " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-between w-100">
+                    <li class="nav-item ms-lg-5 ">
+                        <a class="nav-link py-1 px-2  active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ms-lg-5 ">
+                        <a class="nav-link py-1 px-2 " href="#">News</a>
+                    </li>
+                    <li class="nav-item ms-lg-5 ">
+                        <a class="nav-link py-1 px-2" href="#">Live Cameras</a>
+                    </li>
+
+                    <li class="nav-item ms-lg-5 ">
+                        <a class="nav-link py-1 px-2" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item ms-lg-5 ">
+                        <a class="nav-link py-1 px-2" href="#">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <section class="vh-100 w-100 ">
+        <div class="building w-100 d-flex flex-column justify-content-evenly">
+
+            <div class="w-75 mx-auto text-center">
+                <input type="search" placeholder="find your location....." id="search"
+                    class="w-75 mx-auto  border-0 rounded-5">
+                <button class="btn-style rounded-5" id="sercbtn">Find</button>
+            </div>
+
+            <div class="container">
+                <div class="tempreature w-75 mx-auto row justify-content-between ">
+                    <div class="col-lg-4 temp-item ">
+                        <div class="small-nav d-flex justify-content-between rounded-top-2" id="small-nav">
+                            <p class="id1" id="id1"></p>
+                            <p class="id1" id="id2"></p>
+                        </div>
+                        <div class="big-parent">
+                            <p class="nameOfcontry" id="nameOfCountry"></p>
+                            <div class="d-flex justify-content-between">
+                                <h1 class="temp-in-c" id="temp-in-c"></h1>
+                                <img class="img-icom w-25" id="img-icon" src="" alt="">
+                            </div>
+                            <p class="condition" id="condition"></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 temp-item ">
+                        <div class="small-nav d-flex justify-content-between rounded-top-2" id="small-nav">
+                            <p class="id1" id="id1_1"></p>
+                            <p class="id1" id="id2_1"></p>
+                        </div>
+                        <div class="big-parent">
+                            <p class="nameOfcontry" id="nameOfCountry2"></p>
+                            <div class="d-flex justify-content-between">
+                                <h1 class="temp-in-c" id="temp-in-c2"></h1>
+                                <img class="img-icom w-25" id="img-icon2" src="" alt="">
+                            </div>
+                            <p class="condition" id="condition2"></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 temp-item ">
+                        <div class="small-nav d-flex justify-content-between rounded-top-2" id="small-nav">
+                            <p class="id1" id="id1_2"></p>
+                            <p class="id1" id="id2_2"></p>
+                        </div>
+                        <div class="big-parent">
+                            <p class="nameOfcontry" id="nameOfCountry3"></p>
+                            <div class="d-flex justify-content-between">
+                                <h1 class="temp-in-c" id="temp-in-c3"></h1>
+                                <img class="img-icom w-25" id="img-icon3" src="" alt="">
+                            </div>
+                            <p class="condition" id="condition3"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

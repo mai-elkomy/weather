@@ -1,0 +1,115 @@
+.icon-font{
+    font-size: 30px;
+    color: dodgerblue;
+}
+.logo-img{
+    width: 50px;
+}
+.tagline{
+    font-size: 10px;
+}
+.nav-items{
+    width: 30%;
+}
+.nav-items2{
+    width: 70%;
+}
+.nav-back{
+    background-color: #04212b !important;
+   
+}
+.nav-back ul li a{
+     color: white !important;
+     
+     border: transparent  solid 2px;
+}
+.nav-items a{
+    color: white !important;
+    
+}
+.nav-items span{
+    color: white !important;
+    
+}
+
+.nav-items ul li .active{
+ color: rgb(79 180 214) !important;
+ 
+ border: rgb(79 180 214) solid 2px;
+ border-radius: 20px;
+}
+.nav-items ul li a:hover{
+ color: rgb(79 180 214) !important;
+ 
+ border: rgb(79 180 214) solid 2px;
+ border-radius: 20px;
+}
+
+section{
+    background-color: #04212b !important;
+    position: relative;
+}
+.building{
+    background-image: url(img/bulding.jpg);
+    height: 60vh;
+    background-position: center center;
+    background-size:cover ;
+    background-attachment: fixed;
+}
+
+
+ section .building .bulding-child input{
+    background-color: #04212b !important;
+    border-radius: 10px;
+}
+input{
+    color: white !important;
+    border: none;
+    color: white;
+     background-color:#024c65 !important;
+     padding: 12px;
+}
+/* 01092117255 */
+ button{
+   transform:translateX(-80px);
+  background-color: #092838;
+  padding: 5px 20px;
+  color: white;
+  border: none;
+  border-radius: 15px;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tempreature .temp-item .small-nav{
+    color: white;
+    background-color:  #04212b ;
+
+   padding: 13px 10px 0px 10px;
+   
+}
+.tempreature .temp-item  .big-parent{
+    
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    background-color: #092838;
+}
+ h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+.tempreature .temp-item  .big-parent img{
+    width: 40px;
+}
+.condition{
+color: rgb(22, 164, 211);
+font-size: 20px;
+}
+.tempreature{
+    position: absolute;
+    top: 250px;
+    
+}
